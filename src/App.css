@@ -1,0 +1,107 @@
+body {
+	font-family: 'Jersey 25';
+	background-color: #243A3D;
+	color: #fff;
+}
+
+@font-face {
+  font-family: 'Jersey 25';
+  src: url(https://fonts.gstatic.com/s/jersey25/v2/ll8-K2eeXj2tAs6F9BX4IIoNvAwShQ.woff2) format('woff2');
+}
+
+.App {
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	margin: auto;
+	width: 92%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+svg {
+	margin-right: 6px;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 30px 0;
+}
+
+input {
+	background-color: transparent;
+	border: 1px solid #5f605b;
+	color: #fff;
+	padding: 4px;
+	border-radius: 4px;
+}
+
+::placeholder {
+	color: #fff;
+}
+
+h2 {
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.list-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	border: 2px solid #5f605b;
+	border-radius: 8px;
+	padding: 0px 16px;
+	margin-bottom: 8px;
+	width: 90%;
+	cursor: pointer;
+}
+
+.list:hover {
+	transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.list-date {
+	color: #bac4c6;
+	font-size: 14px;
+}
+
+.list-header, .list-footer {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.list-author {
+	color: #149414;
+	align-self: flex-end;
+	font-size: 14px;
+}
+
+.list-score {
+	color: #bac4c6;
+	align-self: flex-start;
+	font-size: 14px;
+}
+
+.refresh-icon {
+	margin-top: 14px;
+	cursor: pointer;
+}
+
+footer {
+	margin: 20px 0;
+	font-size: 12px;
+}
